@@ -1,4 +1,5 @@
-﻿interface IClient
+﻿namespace Task7;
+interface IClient
 {
     Task<IResponse> GetApplicationStatus(string id, CancellationToken cancellationToken);
 }
